@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Syne', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 400;
+}
+
+
+body {
+  background-image: url('/violet.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: repeat-y;
+}
+
+.cradle-image img:hover {
+  opacity: 0.5;
+}
+
+
+table td{
+  text-align: center;
+}
+
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  border-radius: 1rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+ .card-details{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+ }
+ 
+ .StripeElement{
+  margin: 1em;
+ }
+
+ .InputElement{
+  height: 50px;
+ }
+
+.form-container button {
+  background-color: rgb(186, 148, 222);
+}
+
+
+.form-container button:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+.form-container label {
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+}

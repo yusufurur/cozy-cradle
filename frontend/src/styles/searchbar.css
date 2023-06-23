@@ -1,0 +1,27 @@
+.searchbar-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.searchbar-container button {
+  margin-bottom: 1.7em;
+}
+
+.datePicker {
+  padding: 19px;
+  border: solid 1px rgb(196, 193, 193);
+  border-radius: 0.2rem;
+}
+
+.startDate {
+  text-align: center;
+  padding-left: 50px;
+}
+
+.endDate {
+  padding-left: 50px;
+}
+
